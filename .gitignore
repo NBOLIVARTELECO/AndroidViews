@@ -5,3 +5,6 @@
 /app/build/
 *.iml
 .cxx/
+
+# Project notes (local-only)
+/PROJECT_NOTES.md
