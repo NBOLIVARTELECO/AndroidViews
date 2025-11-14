@@ -1,0 +1,25 @@
+[versions]
+agp = "8.6.1"
+compileSdk = "35"
+minSdk = "24"
+appcompat = "1.7.0"
+material = "1.12.0"
+constraintlayout = "2.1.4"
+navigation = "2.8.3"
+lifecycle = "2.8.6"
+core = "1.13.1"
+splashscreen = "1.0.1"
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+nav-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigation" }
+nav-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigation" }
+lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycle" }
+lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata", version.ref = "lifecycle" }
+core = { group = "androidx.core", name = "core", version.ref = "core" }
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

@@ -1,0 +1,27 @@
+package com.example.androidviews.ui.splash;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.splashscreen.SplashScreen;
+
+import com.example.androidviews.ui.MainActivity;
+import com.example.androidviews.R;
+
+public class SplashActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        SplashScreen.installSplashScreen(this);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            startActivity(new Intent(SplashActivity.this, MainActivity.class));
+            finish();
+        }, 1000);
+    }
+}

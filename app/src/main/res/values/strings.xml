@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidViews</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Tablero</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_process">Proceso</string>
+    <string name="title_login">Iniciar sesión</string>
+    <string name="action_login">Ingresar</string>
+    <string name="label_usuario">Usuario</string>
+    <string name="label_contrasena">Contraseña</string>
+    <string name="desc_splash">Cargando…</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_dashboard">Tablero</string>
+    <string name="nav_process">Proceso</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="contador">Contador</string>
+    <string name="incrementar">Incrementar</string>
+</resources>

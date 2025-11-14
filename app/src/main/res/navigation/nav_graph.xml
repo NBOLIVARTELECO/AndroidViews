@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.androidviews.ui.login.LoginFragment"
+        android:label="@string/title_login">
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.androidviews.ui.home.HomeFragment"
+        android:label="@string/title_home" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.androidviews.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard" />
+
+    <fragment
+        android:id="@+id/processFragment"
+        android:name="com.example.androidviews.ui.process.ProcessFragment"
+        android:label="@string/title_process" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.androidviews.ui.settings.SettingsFragment"
+        android:label="@string/title_settings" />
+
+</navigation>
